@@ -1,5 +1,4 @@
 import 'package:aichat/utils/constants/image_string.dart';
-import 'package:aichat/utils/constants/sizes.dart';
 import 'package:aichat/utils/devices/device_utilities.dart';
 import 'package:flutter/material.dart';
 

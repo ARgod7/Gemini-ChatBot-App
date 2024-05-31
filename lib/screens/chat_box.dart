@@ -8,6 +8,7 @@ class ChatBox extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       appBar: CustomAppBar(),
+      body: Stack(),
     );
   }
 }
