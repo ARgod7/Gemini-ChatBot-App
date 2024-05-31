@@ -1,5 +1,7 @@
 import 'package:aichat/screens/home.dart';
+import 'package:aichat/utils/themes/theme.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,8 +13,12 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: HomeScreen(),
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      themeMode: ThemeMode.system,
+      theme: AAppTheme.lightTheme,
+      darkTheme: AAppTheme.darkTheme,
+      home: const HomeScreen(),
     );
   }
 }
