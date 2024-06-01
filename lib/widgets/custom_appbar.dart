@@ -28,6 +28,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
               icon: const Icon(
                 Icons.camera_alt,
                 size: 30,
+                color: Color.fromARGB(255, 162, 162, 162),
               ),
             ),
           )
